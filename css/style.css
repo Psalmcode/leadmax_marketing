@@ -1,0 +1,219 @@
+.drk:after {
+    content: "";
+    display: block !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(5, 4, 39) !important;
+    opacity: 0.80;
+    z-index: 1;
+  }
+
+  .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 650px;
+  }
+  .carousel-caption{
+    z-index: 2;
+    bottom: 11.75rem !important;
+    color: aliceblue;
+  }
+.carousel-caption h5{
+    font-size: 2.8rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-top: 1.5625rem;
+    font-weight: bolder;
+}
+.carousel-caption h5 span{
+    color: #ffc107 !important;
+    font-weight: bolder;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 0.5625rem;
+    line-height: 1.9;
+}
+h3.course-content{
+    color: #f65f13;
+    font-weight: bolder;
+    text-shadow: 1px 2px 1px #000;
+}
+ /* .card {
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px -10px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px -10px !important; 
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px  !important; 
+ }   */
+.card-body i.bk{
+    font-size: 3.125rem;
+}
+.one-fill {
+  font-size: 2rem;
+  color: #f65f13 !important;
+  text-shadow: 1px 2px 1px #000;
+}
+.p-social{
+    font-size: 1.2rem;
+}
+.btn-purchase{
+  align-items: center;
+  /* background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); */
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(252, 218, 65, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: "Phantomsans", sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 200px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15) !important;
+}
+.team .card, .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15) !important;
+}
+.img-area img{
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+  /*****GENERAL STYLING***************/
+  *{
+    font-family: "Montserrat", sans-serif;
+  }
+  body{
+    background: #f1fbff;
+  }
+  .section-padding{
+    padding: 100px 0;
+  }
+  .carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(0,0,0,0.75);
+    z-index: 1; */
+    background: rgb(5, 4, 39) !important;
+    opacity: 0.75;
+    z-index: 1;
+  }
+  /* .drk:after {
+    content: "";
+    display: block !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(5, 4, 39) !important;
+    opacity: 0.75;
+    z-index: 1;
+  } */
+
+  .navbar-brand{
+    color: #000;
+    font-size: 1.5625rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: capitalize !important;
+  }
+  .navbar-brand span{
+    font-weight: bolder;
+  }
+  .navbar-brand:focus, 
+  .navbar-brand:hover{
+    color: #000;
+  }
+  .navbar-brand .navbar-link{
+    color: #000;
+  }
+  .w-100{
+    height: 100vh;
+  }
+  .about-img{
+    min-height: 150px;
+  }
+.about-img img{
+    width: 100%;
+}
+.about-text h2{
+    font-weight: bolder;
+    color:#f65f13;
+}
+.section-header h2{
+    color: #f65f13;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+}
+  /****RESPONSIVE CSS***/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 23.125rem !important;
+    }
+    .carousel-caption p{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .carousel-item {
+        min-height: 200px !important;
+      }
+    
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 7.8125rem !important;
+    }
+    .carousel-caption h5{
+        font-size: 1.133rem !important;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6 !important;
+        font-size: 0.75rem !important;
+    }
+}
